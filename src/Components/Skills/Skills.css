@@ -1,0 +1,82 @@
+.skills {
+  background-color: black; 
+  color: white;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+
+}
+
+.skill-title h1 {
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.skill-title h1::after {
+
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, skyblue, blue);
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.skills-list ul {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(41, 40, 40);
+  padding: 20px 30px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+
+.skills-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+}
+
+.skills-list li p {
+  margin-top: 1px;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+}
+
+.skills-list li svg {
+  font-size: 3rem;
+  color: rgb(29, 145, 191);
+}
+
+
+@media (max-width: 768px) {
+  .skills-list ul {
+    gap: 30px;
+  }
+
+  .skills-list li {
+    padding: 15px 20px;
+  }
+
+  .skills-list li svg {
+    font-size: 2.5rem;
+  }
+}
