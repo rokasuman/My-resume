@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-sections">
         <p>
           Hi, I am <strong>Suman Roka</strong>, an avid software Developer
-          currently studing IT in Sydney with strong fundation in Computer
+          currently studing IT in Sydney with strong foundation in Computer
           Science.I am developing my skills in web development with the MERN
           stack, while pursuing a major in Artificial Intelligence. I am equally
           passionate about Machine Learning and Blockchain technologies. I
