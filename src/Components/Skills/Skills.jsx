@@ -9,7 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <div className="skill-title">
        <h1>Skills</h1>
         <div className="skills-list">

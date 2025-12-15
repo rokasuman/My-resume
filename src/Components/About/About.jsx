@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1 className="about-me">About Me </h1>
       </div>
@@ -21,7 +21,7 @@ const About = () => {
       <div className="education">
         <ul>
             <li>SHEA: Currently Studying</li>
-            <li>Dented Code Academy :Traineeship</li>
+            {/*<li>Dented Code Academy :Traineeship</li>*/}
         </ul>
       </div>
     </div>

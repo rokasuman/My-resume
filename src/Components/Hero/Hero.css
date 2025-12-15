@@ -49,9 +49,12 @@
   transition: all 0.3s ease;
 }
 
-.hero-connect {
+.hero-connect  {
   background: linear-gradient(135deg, skyblue, blue);
   color: white;
+}
+.hero-connect a{
+  text-decoration: none;
 }
 
 .hero-connect:hover {
