@@ -23,7 +23,7 @@ const Contact = () => {
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <SiGmail size={30} color="#D44638" />
             <a
-              href="mailto:ro7362@gmail.com"
+              href="mailto:roka7362@gmail.com"
               style={{
                 textDecoration: "none",
                 color: "white",
