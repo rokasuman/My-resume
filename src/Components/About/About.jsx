@@ -15,7 +15,7 @@ const About = () => {
           passionate about Machine Learning and Blockchain technologies. I
           intent to dive deeper into web developmnet and constantly strive to
           intergrate modern technologies into the Web development to enhnace the
-          user experince, improvce the performace and ensure reliability.
+          user experience, improvce the performace and ensure reliability.
         </p>
         <p>
           I am looking Forward to connect with fellow developers and industry
