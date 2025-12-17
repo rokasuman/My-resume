@@ -61,20 +61,15 @@
    background-color: rgb(21, 165, 222);
    cursor: pointer;
 }
-
-.project-item button {
+.project-button{
+  display: flex;
+  text-align: center;
+  justify-content: center;
   padding: 10px 20px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border: none;
-  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+
 }
 
-.project-item button:hover {
-  background-color: rgb(21, 165, 222);
-}
 
 .project-item:hover {
   transform: translateY(-5px);
