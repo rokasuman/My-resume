@@ -68,16 +68,4 @@
 }
 
 
-@media (max-width: 768px) {
-  .skills-list ul {
-    gap: 30px;
-  }
 
-  .skills-list li {
-    padding: 15px 20px;
-  }
-
-  .skills-list li svg {
-    font-size: 2.5rem;
-  }
-}

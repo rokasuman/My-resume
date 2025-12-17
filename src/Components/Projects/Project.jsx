@@ -40,7 +40,7 @@ const Project = () => {
           </ul>
         </div>
       </div>
-      <button className="view-more">View More</button>
+     {/* <button className="view-more">View More</button>*/}
     </div>
     
     </>
