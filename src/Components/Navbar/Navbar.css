@@ -41,7 +41,7 @@
 
 .nav-connect:hover {
   transform: scale(1.05);
-  background: #f1f1f1;
+  background:white
 }
 .nav-mob-open{
   display: none;
@@ -52,8 +52,14 @@
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 0px;
     gap: 15px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+   margin-top: 0;
+  
+    
   }
 
   .nav-connect{

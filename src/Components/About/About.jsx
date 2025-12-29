@@ -26,7 +26,7 @@ const About = () => {
       <div className="education">
         <ul>
           <li>SHEA: Currently Studying</li>
-          <li>Dented Code Academy :Traineeship</li>
+          {/*<li>Dented Code Academy :Traineeship</li>*/}
         </ul>
       </div>
     </div>
