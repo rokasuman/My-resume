@@ -3,6 +3,7 @@ import "./Project.css";
 import calculator from "../../assets/calculator.png";
 import movie from "../../assets/movie.png";
 import foodie from "../../assets/Foodie.png"
+import novahealth from "../../assets/novahealth.png"
 
 const Project = () => {
   return (
@@ -13,9 +14,10 @@ const Project = () => {
         <div className="project-list">
           <ul className="p-list">
             <li className="project-item">
-              <img src={calculator} alt="Calculator Project" />
-              <p>Simple calculator made using HTML, CSS, and JS</p>
-              <a href="https://rokasuman.github.io/Calculator/" target="_blank">
+              <img src={novahealth} alt="Calculator Project" />
+              
+              <p>Nova Healthcare – A full-stack healthcare management system enabling appointment booking, profile management, and email notifications, with dedicated admin and doctor dashboards for managing users, bookings, and earnings.</p>
+              <a href="https://capstone-frontend-wvdn.vercel.app/" target="_blank">
                 Go Live
               </a>
             </li>
